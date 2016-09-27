@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+username='testuser'
+email='test@gmail.com'
+pass='11test11@'
+
+
+python manage.py makemigrations
+python manage.py migrate
+
+echo "from django.contrib.auth.models import User; User.objects.create_superuser(${username}, ${password}, ${pass})" | python manage.py shell
+python manage.py runserver
+
+
