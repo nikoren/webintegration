@@ -1,4 +1,4 @@
-##Webintegration
+## Webintegration
 
 - This is [django-rest-framework](http://www.django-rest-framework.org) application for HTTP based data
 integration
@@ -10,9 +10,8 @@ integration
 2. Clone this repo
 3. `pip install requirements.txt`
 4. This app have to use `Postgres` db as backend storage for JSON fields, can't
- use `sqlite3`. Easy postgres installation docs are [here](https://postgresapp
- .com/documentation/install.html)
-5. [Create db ](http://www.marinamele.com/taskbuster-django-tutorial/install-and-configure-posgresql-for-django#create-database)
+ use `sqlite3`.
+5. [Create db](http://www.marinamele.com/taskbuster-django-tutorial/install-and-configure-posgresql-for-django#create-database)
 6. [Update settings](http://www.marinamele.com/taskbuster-django-tutorial/install-and-configure-posgresql-for-django#settings)
 7. Migrate
 
